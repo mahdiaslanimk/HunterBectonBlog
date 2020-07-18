@@ -1,8 +1,11 @@
 import React from "react"
 import { createGlobalStyle, ThemeProvider} from "styled-components"
 import {MDXProvider} from "@mdx-js/react"
+import {preToCodeBlock} from "mdx-utils"
 import Theme from "./src/themes/theme"
-import Table from "./src/components"
+import {Table, Code} from "./src/components"
+import "./language-tabs.css"
+
 
 const GlobalStyles = createGlobalStyle`
     * {
@@ -20,6 +23,15 @@ const GlobalStyles = createGlobalStyle`
 
 const components = {
     table: Table,
+    pre: preProps => {
+        const props = preToCodeBlock(preProps)
+        if (props) {
+          return <Code {...props} />
+        } else {
+          return <pre {...preProps} />
+        }
+    },
+    wrapper: ({children}) => <>{children}</>
 }
 
 export const wrapRootElement = ({ element }) => (
@@ -29,4 +41,4 @@ export const wrapRootElement = ({ element }) => (
             {element}
         </ThemeProvider>
     </MDXProvider>
-)
+) 
