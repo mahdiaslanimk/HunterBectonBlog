@@ -154,7 +154,7 @@ export const PostWrapper = styled.main`
 
 
     @media ${props => props.theme.breakpoints.tablet} {
-        frid-column: 2 / span 6;
+        grid-column: 2 / span 6;
 
     }
 
