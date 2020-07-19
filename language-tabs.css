@@ -39,7 +39,13 @@
   
   .gatsby-highlight pre[class~="language-css"]::before {
     content: "css";
-    background: #ff9800;
+    background: rgb(42,83,220);
+    color: white;
+  }
+  
+  .gatsby-highlight pre[class~="language-python"]::before {
+    content: "python";
+    background: rgb(99,172,65);
     color: white;
   }
   
