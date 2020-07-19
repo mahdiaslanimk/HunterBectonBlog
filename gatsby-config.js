@@ -1,5 +1,13 @@
 
 module.exports = {
+  siteMetadata: {
+    title: "QuPtics",
+    description: "QuPtics is where you learn about everything you need for becoming a Quantum Pro",
+    url: "http://www.quptics.com",
+    image: "/logo.svg",
+    twitter: "@quptics",
+    author: "QuPtics Team",
+  },
   /* Your site config here */
   plugins: [
     {
