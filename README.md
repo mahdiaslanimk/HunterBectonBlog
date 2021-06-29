@@ -39,3 +39,19 @@ gatsby serve
 3- **Syntax highlighting** using *Prism*
 
 4- powerful **SEO**
+
+
+
+# Shots:
+
+```
+Main page                  |  Post
+:-------------------------:|:-------------------------:
+![main page](./src/images/repo/pic1.pdf "Pic1")  |  ![post page](./src/images/repo/pic2.pdf "Pic2")
+```
+
+
+
+![main page](./src/images/repo/pic4.png "Pic4")
+
+![main page](./src/images/repo/pic3.png "Pic3")
