@@ -1,12 +1,12 @@
 
 module.exports = {
   siteMetadata: {
-    title: "QuPtics",
-    description: "QuPtics is where you learn about everything you need for becoming a Quantum Pro",
-    url: "http://www.quptics.com",
+    title: "MyPersonalBlog",
+    description: "MyPersonalBlog is where you learn about everything you need for becoming a Physics Scientist",
+    url: "http://www.mypersonalblog.com",
     image: "/logo.svg",
-    twitter: "@quptics",
-    author: "QuPtics Team",
+    twitter: "@mypersonalblog",
+    author: "mypersonalblog Team",
   },
   /* Your site config here */
   plugins: [
@@ -31,7 +31,7 @@ module.exports = {
         path: `${__dirname}/src/images`
       },
     },
-    `gatsby-plugin-sharp`, 
+    `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-mdx`,

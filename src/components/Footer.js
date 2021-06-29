@@ -36,7 +36,7 @@ export const Footer = () => {
                         <img src={data.twitter.publicURL} alt="twitter Logo" />
                     </a>
                 </FooterSocialIcons>
-                <P size="xSmall" color="dark3">© 2020 QuPtics, All rights reserved.</P>
+                <P size="xSmall" color="dark3">© 2021 MyBlog, All rights reserved.</P>
             </FooterSocialWrapper>
         </FooterWrapper>
     )
